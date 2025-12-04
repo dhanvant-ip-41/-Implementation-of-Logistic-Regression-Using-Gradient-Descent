@@ -82,21 +82,15 @@ y_pred = predict(theta,X)
 
 accuracy = np.mean(y_pred.flatten()==y)
 print("Accuracy:", accuracy)
-
-print(y_pred)
-
-print(Y)
+print("\nPredicted:\n", y_pred)
+print("\nActual:\n", Y)
 
 xnew = np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
 y_prednew = predict(theta,xnew)
-print(y_prednew)
-
-xnew = np.array([[0,0,0,0,0,2,8,2,0,0,1,0]])
-y_prednew = predict(theta,xnew)
-print(y_prednew) 
+print("\nPredicted Result:", y_prednew)
 ~~~
 ## Output:
-![image](https://github.com/user-attachments/assets/2777703b-c371-4165-80a9-1c7f2c2d1738)
+![image](https://github.com/user-attachments/assets/0166d95d-2fdf-45f1-9946-0f26d4b9f876)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
